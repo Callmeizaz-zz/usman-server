@@ -56,4 +56,3 @@ jobs:
         cat .env
         
         
-    - run: yarn build --if-present
