@@ -54,5 +54,6 @@ jobs:
         
         echo "cat .env"
         cat .env
-        
+    
+    - run: sudo pm2 restart backend
         
